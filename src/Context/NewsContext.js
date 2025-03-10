@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const NewsContext = createContext();
 
-const API_KEY = '511df425ad8d4985a270e5f530f6f414'; // Replace with your NewsAPI key
+const API_KEY = '60a86d1d7e7545aaa910258388ecd7c1'; // Replace with your NewsAPI key
 
 export const NewsProvider = ({ children }) => {
   const [topNews, setTopNews] = useState([]);
